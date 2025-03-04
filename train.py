@@ -31,12 +31,12 @@ def calc_score(board, side):
                 new_board[pos] = side
                 new_side = 3 - side
                 scores.append(calc_score(new_board, new_side))
-            if side == 1 and 5 in scores:
-                score = 5
-            elif side == 1 and -2 in scores:
-                scores = [x for x in scores if x != -2] # 删去-2再计算
+            if side == 1 and score_dic[1] in scores:
+                score = score_dic[1]
+            elif side == 1 and score_dic[2] in scores:
+                scores = [x for x in scores if x != score_dic[2]] # 删去-2再计算
                 if len(scores) == 0:
-                    score = -2
+                    score = score_dic[2]
                 else:
                     score = sum(scores) / len(scores)
             else:
