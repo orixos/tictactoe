@@ -15,7 +15,7 @@
   - [x] 用户后手
 ## 使用方法
 ### 下载发布版
-下载[**发布版**](https://github.com/orixos/tictactoe)即可直接使用。（发布版将于近期提供）
+下载[**1.0发布版**](https://github.com/orixos/tictactoe/releases/tag/v1.0)即可直接使用。
 ### 使用Python运行
 1. 生成棋谱文件
 ```bash
@@ -37,7 +37,7 @@ python setup.py build
 ```
 3. 添加棋谱文件
    
-  将`data_compfirst.csv`和`data_userfirst.csv`复制到可执行文件的同一目录下
+> 将`data_compfirst.csv`和`data_userfirst.csv`复制到可执行文件的同一目录下
 
 ## 算法优化
 ### 参数调整
