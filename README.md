@@ -36,6 +36,7 @@ pip install cx_Freeze
 python setup.py build
 ```
 3. 添加棋谱文件
+   
 将`data_compfirst.csv`和`data_userfirst.csv`复制到可执行文件的同一目录下
 
 ## 算法优化
